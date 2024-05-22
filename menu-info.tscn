@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://cp7205xn0jk67"]
+
+[ext_resource type="Script" path="res://menu_info.gd" id="1_7dhtr"]
+
+[node name="MenuInfo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7dhtr")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -178.5
+offset_bottom = 178.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.00316, 1.03509)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 22
+text = "Nombre del proyecto: Pretend Bombero
+
+Equipo:
+Martin Aron Cabrera Martinez
+Bryan Rodriguez Madrigal
+
+Problema que resuelven:  Aborda la necesidad de mejorar la formación y preparación de los bomberos en situaciones de emergencia. La capacitación tradicional para los bomberos puede ser costosa y peligrosa.
+
+Justificación: proporciona una solución innovadora al problema mediante el uso de la realidad virtual (VR). Este juego permite a los bomberos entrenar en un entorno seguro, controlado y altamente realista."
+fit_content = true
+
+[node name="ButtonBackToMenu" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 30
+text = "Volver"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/ButtonBackToMenu" to="." method="_on_button_back_to_menu_pressed"]

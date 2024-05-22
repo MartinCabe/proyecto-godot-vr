@@ -1,0 +1,17 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1716400558
+export_presets.cfg::TextFile::-1::1716366633::0::1::::<><>::
+fire.gd::GDScript::-1::1716366255::0::1::::<>Node3D<>::
+fire.tscn::PackedScene::3873859750997248120::1716366491::0::1::::<><>::
+hose.tscn::PackedScene::1097589782483963019::1716349714::0::1::::<><>::
+icon.svg::CompressedTexture2D::6316926591934751601::1716162335::1716162345::1::::<><>::
+main.gd::GDScript::-1::1716366614::0::1::::<>Node3D<>::
+main.tscn::PackedScene::7510463917788031033::1716366614::0::1::::<><>::uid://dftt50vwtrtdm::::res://xr_origin.tscn<>res://main.gd<>uid://uae75ouyo0fd::::res://truck.tscn<>uid://bvgr50ftl5dqm::::res://fire.tscn
+menu-info.tscn::PackedScene::5893419725594358814::1716352042::0::1::::<><>::res://menu_info.gd
+menu.gd::GDScript::-1::1716165527::0::1::::<>Control<>::
+menu.tscn::PackedScene::3580207752040949887::1716352021::0::1::::<><>::res://menu.gd
+menu_info.gd::GDScript::-1::1716165501::0::1::::<>Control<>::
+truck.tscn::PackedScene::1404078484405796225::1716345063::0::1::::<><>::
+xr_camera_3d.gd::GDScript::-1::1716366591::0::1::::<>XRCamera3D<>::
+xr_origin.gd::GDScript::-1::1716356960::0::1::::<>XROrigin3D<>::
+xr_origin.tscn::PackedScene::7550637989826616822::1716366256::0::1::::<><>::res://xr_camera_3d.gd<>uid://pvxe4yr8akul::::res://hose.tscn

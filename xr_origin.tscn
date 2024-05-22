@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dftt50vwtrtdm"]
+
+[ext_resource type="Script" path="res://xr_camera_3d.gd" id="1_fxgbh"]
+[ext_resource type="PackedScene" uid="uid://pvxe4yr8akul" path="res://hose.tscn" id="1_t173r"]
+
+[node name="XROrigin3D" type="XROrigin3D"]
+
+[node name="XRCamera3D" type="XRCamera3D" parent="."]
+script = ExtResource("1_fxgbh")
+
+[node name="Hose" parent="XRCamera3D" instance=ExtResource("1_t173r")]
+transform = Transform3D(0.75, 0, 0, 0, 0.139752, 0.736865, 0, -0.736865, 0.139752, 0.392488, -0.32276, -0.468806)

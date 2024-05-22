@@ -1,0 +1,14 @@
+Area3D
+RayCast3D
+MeshInstance3D
+StaticBody3D
+CollisionShape3D
+PathFollow3D
+Path3D
+Label
+RichTextLabel
+Button
+VBoxContainer
+MarginContainer
+XRCamera3D
+XROrigin3D
